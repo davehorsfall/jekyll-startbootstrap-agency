@@ -1,4 +1,4 @@
-[![](https://assets.startbootstrap.com/img/screenshots/themes/agency.png)](https://beautifuljekyll.com/plans/)
+[![](assets/img/screenshot.png)](https://github.com/davehorsfall/jekyll-startbootstrap-agency)
 
 # Jekyllised - Start Bootstrap Agency
 

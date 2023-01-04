@@ -35,7 +35,7 @@ Agency is a HTML/CSS theme built with Bootstrap 5. This theme is perfect for age
 
 1. Create your own copy by forking the repositry. [Click here](https://github.com/davehorsfall/jekyll-startbootstrap-agency/fork) to start a new fork. Afterwards, you will have your own version of the template under your Github username.
 
-[![create-fork](docs/screenshots/create-fork-thumb.png?raw=true)](docs/screenshots/create-fork.png?raw=true)
+> [![create-fork](docs/screenshots/create-fork-thumb.png?raw=true)](docs/screenshots/create-fork.png?raw=true)
 
 2. Clone your forked repositry. Replace `[USERNAME]` with your own Github username:
 

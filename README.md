@@ -12,9 +12,8 @@
 
 Agency is a HTML/CSS theme built with Bootstrap 5. This theme is perfect for agencies or small businesses looking to set up a simple website for their company. The theme can also be modified and adjusted to fit just about any purpose! 
 
-## Features
+## Agency Features
 
-* New! Working contact form using SB Forms
 * Responsive top navigation that collapses and restyled when the page is scrolled
 * Smooth scrolling navigation to optimize the one page website user experience
 * Integration with Font Awesome Icons
@@ -23,6 +22,13 @@ Agency is a HTML/CSS theme built with Bootstrap 5. This theme is perfect for age
 * Team member section with profile images and social media links
 * Footer with social links, copyright information, and additional page links
 * SCSS and Pug files included in the source files on GitHub for deeper customization and development
+
+## Jekyllised
+
+* The Agency HTML template has been natively integrated with the Jekyll framework
+* Works with Ruby 2 and 3
+* Portfolio collection - just add new Markdown files to add new portfolio items
+* Team collection - just add new Markdown files to add new team members
 
 # Getting Started (i.e. setting up things on your own computer)
 

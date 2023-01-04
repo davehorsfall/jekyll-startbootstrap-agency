@@ -28,8 +28,8 @@ Agency is a HTML/CSS theme built with Bootstrap 5. This theme is perfect for age
 
 ## Requirements
 
-* You will need [Ruby](https://jekyllrb.com/docs/installation/) to use [Jekyll](https://jekyllrb.com/). Following [the guides](https://jekyllrb.com/docs/installation/) on the Jekyll website to install the requiremtns for your operating system.
-* You will need [Git](https://github.com/git-guides/install-git) installed to deploy your website to Github Pages. Follow [the guides](https://github.com/git-guides/install-git) on the Github website 
+* You will need [Ruby](https://jekyllrb.com/docs/installation/) to use [Jekyll](https://jekyllrb.com/). Follow [the guides](https://jekyllrb.com/docs/installation/) on the Jekyll website to install the requiremtns for your operating system.
+* You will need [Git](https://github.com/git-guides/install-git) installed to deploy your website to Github Pages. Follow [the guide](https://github.com/git-guides/install-git) on the Github website to set setup.
 
 ## Installation
 
@@ -64,6 +64,20 @@ The Jekyll website should now be avaliable for you view in your browser. The def
 
 # Deploymemt (i.e. publishing your website online for free using Github Pages)
 
-1. Create your own copy by forking the repositry. [Click here](https://github.com/davehorsfall/jekyll-startbootstrap-agency/fork) to start a new fork. Afterwards, you will have your own version of the template under your Github username.
+You can deploy your website for free using features of Github called [Pages](https://pages.github.com/) and [Actions](https://github.com/actions). Follow the instructions below to deploy your forked copy of the template. 
 
+1. In your forked copy of the repo, go to the `Settings` tab at the top, then click the `Pages` link on the left. Here, we see the options for hosting content from your repo. For the `Source` option, make sure **Deploy from a branch** is selected. Then for the `Branch` option, select the **main** branch, as shown in the screenshot below.
 
+> [![github-pages-setup](docs/screenshots/github-pages-setup-thumb.png?raw=true)](docs/screenshots/github-pages-setup.png?raw=true)
+
+2. After you make these changes, Github Pages will be setup. By default, an Action called `pages build and deployment` will be run. You can view this under the `Actions` tab. However, this default Action will not build the website correctly. On the Actions tab, select the `deploy` action on the left, and then select `Run Workflow` and click on the **Run Workflow** button. See screenshots below for clarification.  
+
+> [![github-actions-default-thumb](docs/screenshots/github-actions-default-thumb.png?raw=true)](docs/screenshots/github-actions-default.png?raw=true) [![create-fork](docs/screenshots/github-actions-deploy-thumb.png?raw=true)](docs/screenshots/github-actions-deploy.png?raw=true) [![create-fork](docs/screenshots/github-actions-run-workflow-thumb.png?raw=true)](docs/screenshots/github-actions-run-workflow.png?raw=true)
+
+3. If everything has worked correctly, you will see your `deploy` Action is run successfully. 
+
+> [![github-actions-deploy-success](docs/screenshots/github-actions-deploy-success-thumb.png?raw=true)](docs/screenshots/github-actions-deploy-success.png?raw=true)
+
+4. After the `deploy` Action has successfully complete, you can return to the `Pages` link, to see a confirmation that your Jekyll website is live, along with a link to the website. You can make furhter changes to your Github Pages setup. For example, enforce HTTPS, or setup a custom domain.  See the [Pages documentation](https://docs.github.com/en/pages) for more details. 
+
+> [![github-pages-deploy](docs/screenshots/github-pages-deploy-thumb.png?raw=true)](docs/screenshots/github-pages-deploy.png?raw=true)
